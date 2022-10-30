@@ -18,8 +18,8 @@ body {
   color: #444;
   max-width: 30rem;
   margin: 4rem auto;
-  padding-bottom: 1rem;
   border-radius: 5px;
+  padding-bottom: 1rem;
   box-shadow: 0 0 5px lightgray;
 }
 
@@ -87,27 +87,4 @@ body {
   margin-left: 0.5rem;
   padding: 0 0.75rem;
   outline: none;
-}
-
-.task {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 0.5rem 2rem;
-  padding-bottom: 0.5rem;
-}
-
-.task:not(:last-child) {
-  border-bottom: 1px solid #ddd;
-}
-
-.task__done {
-  font-size: 150%;
-  font-weight: bold;
-}
-
-.task__due {
-  margin-top: 0.25rem;
-  color: #777;
-  font-size: 0.8rem;
 }
